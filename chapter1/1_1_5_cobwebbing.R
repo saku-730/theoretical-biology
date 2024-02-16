@@ -1,6 +1,8 @@
 ## 1_1_5_spider.R made by kero
 
+library(gganimate)
 library(tidyverse)
+library(gifski)
 rm(list=objects())
 
 # setting
@@ -49,7 +51,8 @@ spider_plot_sub<-c(N0,spider_plot_sub)
 max_x<- max(unlist(spider_plot))
 
 
-footprint <- tibble(y=as.numeric(spider_plot),x=as.numeric(spider_plot_sub))
+footprint <- tibble(y=as.numeric(spider_plot),x=as.numeric(spider_plot_sub),
+                    time=seq(1,generation*2,1))
 
 fig <- ggplot()+
   geom_path(data = plot_data,aes(x=Nt,y=Nt,color ="Nt+1 = Nt"))+
@@ -63,4 +66,3 @@ fig <- ggplot()+
   theme(plot.title = element_text(hjust = 0.5)) #図のタイトルを中央にする
 
 fig
-
