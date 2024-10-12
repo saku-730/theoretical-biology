@@ -1,52 +1,19 @@
-# NAME hoge
+# SK研究室 script
 
-introduction 
-easy experience
-
-## DEMO
-
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
-
-## Features
-
-"hoge"のセールスポイントや差別化などを説明する
+[SK研究室](https://theoretical-biology.info)で使っているスクリプトです。適宜ダウンロードしてお使いください。
 
 ## Requirement
 
-依存パッケージ,動作条件(OS,バージョン)
+スクリプトによりますが基本Rで書かれています。
 
-* python-opencv
-* RadPi.gpio(raspberrypi)
-* ASUS.gpio(tineker board)
+*　
 
-## Installation
-
-Requirementとこのリポジトリのインストール方法
-
-```bash
-pip install opencv-python
-pip install rpi.gpio
-```
-
-## Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
 
 ## Note
 
-注意点などがあれば書く
+Rのバージョン違いとかで動かなくなったらごめんね。
 
 ## Author
 
 * saku
 * tbio_web★theoretical-biology.info
-
-## License
-
-Free
