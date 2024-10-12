@@ -1,4 +1,4 @@
-## 1_1_1_discrete.R made by saku
+## 1_1_8.R made by saku
 
 library(tidyverse)
 rm(list=objects())
@@ -40,6 +40,6 @@ figure <- ggplot(Result,aes(ge))+
   geom_path(aes(y=R_05,color ="R_05"))+
   labs(title = "1.1.1 図1 一種の個体群動態(差分方程式)",x = "世代", y= "個体数")+
   theme(plot.title = element_text(hjust = 0.5))
-  
+
 
 figure

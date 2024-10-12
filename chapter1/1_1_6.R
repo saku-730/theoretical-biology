@@ -1,11 +1,8 @@
-## 1_1_5_spideranime.R made by kero
-
-# making gif file
-# when you make massive png file,and no gif try reinstall gifski
+## 1_1_6.R made by kero
 
 library(gganimate)
 library(tidyverse)
-library(gifski) 
+library(gifski)
 rm(list=objects())
 
 # setting
@@ -62,8 +59,8 @@ fig1 <- ggplot()+
   geom_path(data = plot_data,aes(x=Nt,y=Ncurve,color =""))+
   geom_path(data = footprint,
             arrow=arrow(angle=30,type = "closed",length = unit(0.15,"inches")),
-            aes(x=x,y=y,color ="個体数の軌跡"))+
-  labs(title = "1.1.5 図2 蜘蛛の巣図法アニメーション",x = "Nt", y= "Nt+1",color="")+ 
+            aes(x=x,y=y,color ="個体数"))+
+  labs(title = "1.1.6 R=",x = "Nt", y= "Nt+1",color="")+ 
   scale_x_continuous(limits = c(0,1.1*max_x))+ # x軸範囲
   scale_y_continuous(limits = c(-1,1.1*max_y))+ # y軸範囲
   theme(plot.title = element_text(hjust = 0.5))+ #図のタイトルを中央にする
