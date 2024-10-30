@@ -1,7 +1,7 @@
 ## 1_1_5_spideranime.R made by kero
 
 # making gif file
-# when you make massive png file,and no gif try reinstall gifski
+# when you make massive png file and no gif, try reinstall gifski
 
 library(gganimate)
 library(tidyverse)

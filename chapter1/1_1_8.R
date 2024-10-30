@@ -20,6 +20,11 @@ Result <- data_frame(
 )
 
 # equation
+
+
+exp(r0*a*(1-exp(-t/a)))
+
+
 for (t in 1:generation){
   NR_1 <- (R01+1)^t * N0
   NR_2 <- (R02+1)^t * N0

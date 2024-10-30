@@ -7,7 +7,7 @@ rm(list=objects())
 
 # setting
 N0 <- 1 #N0 t=0での個体数
-R <- 1.5 #R 増殖率の値
+R <- 1.7#R 増殖率の値
 generation <- 10 #世代数
 K <- 100 #K 環境収容力
 
